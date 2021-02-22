@@ -1,0 +1,16 @@
+body {
+  background-color: blue;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+img {
+  height: 150px;
+}
+

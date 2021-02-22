@@ -50,6 +50,7 @@ Route::get('/', function () {
         $menus=['pages', 'courses', 'features', 'blog', 'shop'];
     return view('index', compact('querys', 'address', 'contactNumber', 'openingHours', 'emailSupport', 'menus'));
 });
+
 Route::get('about_us', function () {
     $menus=[ 'pages', 'courses', 'features', 'blog', 'shop'];
     $address="382 NE 191st St # 87394 Miami, FL 33179-3899";
