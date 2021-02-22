@@ -45,7 +45,7 @@
 
         @yield('main')
 
-    @include('layout.footer ')
+    @include('layout.footer')
 
 
 
